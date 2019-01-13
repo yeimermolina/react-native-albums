@@ -6,7 +6,6 @@ import Header from './src/components/header';
 //Create a component
 const App = () => (
   <Fragment>
-    <Text>Some Text normal</Text>
     <Header />
   </Fragment>
 );
