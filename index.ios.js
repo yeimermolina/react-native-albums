@@ -1,14 +1,10 @@
 // Import a library to help create a component
-import React, { Fragment } from 'react';
+import React from 'react';
 import { Text, AppRegistry } from 'react-native';
-import Header from './src/components/header';
 
 //Create a component
 const App = () => (
-  <Fragment>
-    <Text>Some Text normal</Text>
-    <Header />
-  </Fragment>
+  <Text>Some Text from IOS</Text>
 );
 
 //Render it to the device
